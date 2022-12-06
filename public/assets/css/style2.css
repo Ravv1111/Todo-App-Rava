@@ -1,0 +1,191 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://wallpapercave.com/wp/wp3371800.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.background{
+    background-image: url(https://wallpapercave.com/wp/wp3371800.jpg);
+    width: 430px;
+    height: 520px;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    left: 50%;
+    top: 50%;
+}
+.background .shape{
+    height: 200px;
+    width: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+form{
+    height: 600px;
+    width: 400px;
+    background-color: rgba(39, 73, 146, 0.13);
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    padding: 15px 10px;
+}
+form *{
+    font-family: 'Poppins',sans-serif;
+    color: #130606;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+form h3{
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 42px;
+    text-align: center;
+}
+
+label{
+    display: block;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+  
+}
+input{
+    display: block;
+    height: 50px;
+    width: 100%;
+    background-color: rgba(40, 23, 84, 0.07);
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+  
+}
+::placeholder{
+    color: #0e0d0d;
+}
+button{
+    margin-top: 50px;
+    width: 100%;
+    display: inline-block;
+    background-color: #000;
+     background-image: linear-gradient(125deg,#160a6e,#030f1f);
+    color: #fff;
+    padding: 15px 0;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.social{
+  margin-top: 30px;
+  display: flex;
+}
+.social div{
+  background: red;
+  width: 150px;
+  border-radius: 3px;
+  padding: 5px 10px 10px 5px;
+  background-color: rgba(255,255,255,0.27);
+  color: #011b4c;
+  text-align: center;
+}
+.social div:hover{
+  background-color: rgba(9, 1, 22, 0.47);
+}
+
+
+
+
+/* body {
+  
+  background-color: #000;
+  background-image: linear-gradient(125deg,#e8cfb7,#aacdc7);
+
+}
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase; 
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+     color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#0407b8  0%,#07022b 100%) !important;
+    background: -webkit-linear-gradient(left,#0407b8   0%,#07012e 100%) !important;
+    background: linear-gradient(to right,#0407b8  0%,#07012e 100%) !important;
+     -webkit-background-clip: text !important; 
+    -webkit-text-fill-color: transparent !important;
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  background-color: #919b9a;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  background-color: #bec1c0;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #1d1a2d;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out, 
+  -webkit-transform .2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+  background-image: linear-gradient(125deg,#1a07a4,#030f1f);
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width:200px;
+  cursor: pointer;
+}
+
+ */
